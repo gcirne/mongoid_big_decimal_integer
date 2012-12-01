@@ -1,0 +1,1 @@
+rvm use 1.9.3@mongoid_big_decimal_integer --create
