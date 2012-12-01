@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Guilherme Cirne"]
   gem.email         = ["gcirne@gmail.com"]
   gem.description   = %q{The default BigDecimal type provided in Mongoid stores BigDecimals as Strings. Because of this, stuff like sorts and range queries don't work. This type multiplies the value by a (configurable) power of 10 and stores the resulting Integer.}
-  gem.summary       = %q{Mongoid type which stores BigDecimals as Integers}
+  gem.summary       = %q{Mongoid type which stores BigDecimals as Integers.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

@@ -1,12 +1,14 @@
 # Mongoid::BigDecimalInteger
 
-TODO: Write a gem description
+Mongoid type which stores BigDecimals as Integers.
+
+The default BigDecimal type provided in Mongoid stores BigDecimals as Strings. Because of this, stuff like sorts and range queries don't work. This type multiplies the value by a (configurable) power of 10 and stores the resulting Integer.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'mongoid-big_decimal_integer'
+    gem 'mongoid_big_decimal_integer'
 
 And then execute:
 
@@ -14,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mongoid-big_decimal_integer
+    $ gem install mongoid_big_decimal_integer
 
 ## Usage
 
