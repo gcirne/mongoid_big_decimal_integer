@@ -1,4 +1,4 @@
-# Mongoid::BigDecimalInteger
+# Mongoid::BigDecimalInteger [![Build Status](https://secure.travis-ci.org/gcirne/mongoid_big_decimal_integer.png?branch=master)](https://travis-ci.org/gcirne/mongoid_big_decimal_integer)
 
 Mongoid type which stores BigDecimals as Integers.
 
