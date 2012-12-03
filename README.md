@@ -18,9 +18,15 @@ Or install it yourself as:
 
     $ gem install mongoid_big_decimal_integer
 
+## Configuration
+
+By default, `Mongoid::BigDecimalInteger` uses 2 decimal places (which means that a value is multiplied by 10^2 before being stored). You can change this by calling:
+
+	Mongoid::BigDecimalInteger.decimal_places = 12
+
 ## Usage
 
-TODO: Write usage instructions here
+	field :my_field, type: Mongoid::BigDecimalInteger
 
 ## Contributing
 
